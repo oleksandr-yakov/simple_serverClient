@@ -12,5 +12,5 @@ rd = connection.recv(1024)
 print(rd.decode('utf8'))
 
 connection.send("nice to meet U ,server".encode())
-
+#changes
 connection.close()
